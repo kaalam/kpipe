@@ -9,7 +9,7 @@ setup(
 	author		 = 'kaalam',
 	author_email = 'kaalam@kaalam.ai',
 	url			 = 'https://github.com/kaalam/pype',
-	download_url = 'https://github.com/kaalam/pype/archive/v_01.tar.gz',
+	download_url = 'https://github.com/kaalam/pype/dist/pype-0.1.tar.gz',
 	keywords	 = ['utilities', 'pipeline', 'etl'],
 	classifiers  = [
 		'Development Status :: 3 - Alpha',
