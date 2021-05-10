@@ -5,7 +5,7 @@ setup(
 	packages	 = ['kpype'],
 	version		 = '0.1',
 	license		 = 'MIT',
-	description  = 'A one-file-script named `pype` that runs only-if-necessary the scripts contained in a folder named ./scripts.',
+	description  = 'A one-file-script named `kpype` that runs only-if-necessary the scripts contained in a folder named ./scripts.',
 	author		 = 'kaalam',
 	author_email = 'kaalam@kaalam.ai',
 	url			 = 'https://github.com/kaalam/kpype',
