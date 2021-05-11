@@ -6,15 +6,15 @@ from kpype import KPype
 
 
 def main():
-    """
-    Implements the script interface.
-    """
+	"""
+	Implements the script interface.
+	"""
 
 	if len(sys.argv) != 2:
-        sys.exit(KPype.help())
+		sys.exit(KPype.help())
 
-    cmd = sys.argv[1].tolower
-    
+	cmd = sys.argv[1].tolower
+
 	if cmd == 'info':
 		sys.exit(KPype.info())
 	elif cmd == 'fast':
