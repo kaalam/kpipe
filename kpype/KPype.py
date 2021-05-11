@@ -2,11 +2,11 @@
 
 # Copyright (c) 2021 kaalam.ai The Authors of Jazz
 
-# Hosted at https://github.com/kaalam/kpype
+# Hosted at https://github.com/kaalam/kpipe
 
 
-class KPype():
-	
+class KPipe():
+
 	@staticmethod
 	def info(calc_hashes = True):
 		print('Called info(%s)' % (calc_hashes))

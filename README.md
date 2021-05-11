@@ -2,7 +2,7 @@
 
 ## What is this?
 
-This utility is a python one-file-script named `kpype` that runs only-if-necessary the scripts contained in a folder named ./scripts.
+This utility is a python one-file-script named `kpipe` that runs only-if-necessary the scripts contained in a folder named ./scripts.
 
 ### Inspiration:
 
@@ -19,11 +19,11 @@ This utility is a python one-file-script named `kpype` that runs only-if-necessa
     * `.inputs()` returning a list of file names with all the inputs.
     * `.output()` **one** file the script generates. Can be `None` if the method is just a definition of properties or functions.
     * `.build()` the method to be run to generate the output.
-    * `<anything else>` is okay. Scripts can import from other scripts. Just bear in mind `kpype` is not aware.
+    * `<anything else>` is okay. Scripts can import from other scripts. Just bear in mind `kpipe` is not aware.
 
 ### Usage:
 
-  * `kpype info` lists all the scripts and data files including hashes and recency showing what needs rebuilding, if anything.
-  * `kpype fast` same and `info` without computing the file hashes.
-  * `kpype make` apply a **make algorithm** to build the files if either the inputs or the scripts have smaller recency than the output.
-  * `kpype build` rebuild everything in order regardless of file recency.
+  * `kpipe info` lists all the scripts and data files including hashes and recency showing what needs rebuilding, if anything.
+  * `kpipe fast` same and `info` without computing the file hashes.
+  * `kpipe make` apply a **make algorithm** to build the files if either the inputs or the scripts have smaller recency than the output.
+  * `kpipe build` rebuild everything in order regardless of file recency.

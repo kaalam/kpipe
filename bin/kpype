@@ -2,7 +2,7 @@
 
 import sys
 
-from kpype import KPype
+from kpipe import KPipe
 
 
 def main():
@@ -11,20 +11,20 @@ def main():
 	"""
 
 	if len(sys.argv) != 2:
-		sys.exit(KPype.help())
+		sys.exit(KPipe.help())
 
 	cmd = sys.argv[1].tolower
 
 	if cmd == 'info':
-		sys.exit(KPype.info())
+		sys.exit(KPipe.info())
 	elif cmd == 'fast':
-		sys.exit(KPype.info(False))
+		sys.exit(KPipe.info(False))
 	elif cmd == 'make':
-		sys.exit(KPype.make())
+		sys.exit(KPipe.make())
 	elif cmd == 'build':
-		sys.exit(KPype.make(True))
+		sys.exit(KPipe.make(True))
 	else:
-		sys.exit(KPype.help())
+		sys.exit(KPipe.help())
 
 
 if __name__ == "__main__":
