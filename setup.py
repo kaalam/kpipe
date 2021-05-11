@@ -11,6 +11,7 @@ setup(
 	url			 = 'https://github.com/kaalam/kpype',
 	download_url = 'https://github.com/kaalam/kpype/dist/kpype-0.1.tar.gz',
 	keywords	 = ['utilities', 'pipeline', 'etl'],
+	scripts		 = ['bin/kpype'],
 	classifiers  = [
 		'Development Status :: 3 - Alpha',
 		'Intended Audience :: Developers',
