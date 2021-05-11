@@ -19,5 +19,18 @@ class KPipe():
 
 	@staticmethod
 	def help():
-		print('Called help()')
+		usage = """
+Usage:
+------
+
+  kpipe info  Lists all the scripts and data files including hashes and recency
+              showing what needs rebuilding, if anything.
+  kpipe fast  Same and info without computing the file hashes.
+  kpipe make  Applies a "make algorithm" to build the files if either inputs or
+              scripts have smaller recency than the output.
+  kpipe build Rebuild everything in order, regardless of file recency.
+
+(See: https://github.com/kaalam/kpipe/example for some example scripts.)
+"""
+		print(usage)
 		return 1
