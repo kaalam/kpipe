@@ -13,7 +13,7 @@ def main():
 	if len(sys.argv) != 2:
 		sys.exit(KPipe.help())
 
-	cmd = sys.argv[1].tolower
+	cmd = sys.argv[1].lower()
 
 	if cmd == 'info':
 		sys.exit(KPipe.info())
