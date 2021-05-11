@@ -3,7 +3,7 @@ from distutils.core import setup
 setup(
 	name		 = 'kpype',
 	packages	 = ['kpype'],
-	version		 = '0.1.1',
+	version		 = '0.1.3',
 	license		 = 'MIT',
 	description  = 'A one-file-script named `kpype` that runs only-if-necessary the scripts contained in a folder named ./scripts.',
 	author		 = 'kaalam',
