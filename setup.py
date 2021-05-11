@@ -1,17 +1,18 @@
 from distutils.core import setup
 
-VERSION = '0.1.1'
+from kpipe import __version__
+
 
 setup(
 	name		 = 'kpipe',
 	packages	 = ['kpipe'],
-	version		 = VERSION,
+	version		 = __version__,
 	license		 = 'MIT',
 	description  = 'A one-file-script named `kpipe` that runs only-if-necessary the scripts contained in a folder named ./scripts.',
 	author		 = 'kaalam',
 	author_email = 'kaalam@kaalam.ai',
 	url			 = 'https://github.com/kaalam/kpipe',
-	download_url = 'https://github.com/kaalam/kpipe/dist/kpipe-%s.tar.gz' % VERSION,
+	download_url = 'https://github.com/kaalam/kpipe/dist/kpipe-%s.tar.gz' % __version__,
 	keywords	 = ['utilities', 'pipeline', 'etl'],
 	scripts		 = ['bin/kpipe'],
 	classifiers  = [
