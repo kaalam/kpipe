@@ -4,8 +4,14 @@
 
 # Hosted at https://github.com/kaalam/kpipe
 
+import re
+
 
 class KPipe():
+
+	@staticmethod
+	def zip_script_names():
+		"^.*/scripts/([0-9]+)_([a-zA-Z][a-zA-Z0-9_]*)\\.py$"
 
 	@staticmethod
 	def info(calc_hashes = True):
