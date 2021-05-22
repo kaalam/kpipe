@@ -4,6 +4,7 @@ find . | grep -e "/\\.ipynb_checkpoints" | xargs rm -rf
 
 if [ -n "$(git status --porcelain)" ]; then
 	printf "git status not clean!\n"
+	exit 1
 fi
 
 rm -rf ./sdist
