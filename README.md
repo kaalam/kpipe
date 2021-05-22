@@ -20,6 +20,7 @@ This utility is a python one-file-script named `kpipe` that runs only-if-necessa
     * `.output()` **one** file the script generates. Can be `None` if the method is just a definition of properties or functions.
     * `.build()` the method to be run to generate the output.
     * `<anything else>` is okay. Scripts can import from other scripts. Just bear in mind `kpipe` is not aware.
+  * For specific details, check the scripts in `example/scripts/`.
 
 ### Usage:
 
